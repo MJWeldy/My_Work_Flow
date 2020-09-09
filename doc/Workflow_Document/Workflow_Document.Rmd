@@ -1,0 +1,75 @@
+---
+title: "Workflow Instructions"
+author: "Matt Weldy"
+date: "`r Sys.Date()`"
+output:
+   pdf_document:
+      fig_caption: true
+      number_sections: true
+bibliography: workflow_biblio.bib 
+---
+
+\newpage 
+\tableofcontents 
+\listoffigures
+\listoftables
+\newpage
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Reproducible projects
+
+Recent years have seen an explosion of tools available for use in academic and commecial applications. However, as the Peter Parker principle outlines, "with great power comes great responsibility." In general every scientist I've worked with does their best to operate other this principle. But, let's be honest, most of the readers of this guide are primarily ecologists, not computer scientists, or software engineers. We are in practice terrible hackers trying to tape together the tools we need to use in the best way we can. 
+
+![The wisdom of Stan Lee. Source: https://www.walmart.com/ip/The-Amazing-Spider-Man-Framed-Marvel-Comics-Pop-Art-Poster-Art-Print-Quote-With-Great-Power-Comes-Great-Responsibility-Size-16-x-16/587466634.](Images/spider_man.jpeg){width=50%}
+
+The following guide is my attempt to share a workflow that I currently use. In full disclosure, none of this is original. I have put this together from a number of sources and have found it helps me stay organized, keeps my work portable (i.e. switching computers or passing code to coauthors does not cause a big headache), and helps track and archive changes throughout each project's lifetime. This guide will continue to evolve as I adapt different methods, and I welcome input from others along the way. 
+
+  @BES_guide_2017
+  
+All this begets the question, why worry about reproducibility and optimizing work flows? 
+
+# Link Rstudio and Github
+    Usign SSH keys
+    
+# Initialize a new project
+
+# git ignore
+
+# Working with a project
+
+
+
+This is an RMarkdown document intended to outline my, in progress, solution to juggling project directory madness. Working through this document should outline the procedures I use to: 
+
+1. Connect Rstudio to github
+2. Initialize a new project
+  + Including importing my project directory template
+  + Daily workflow
+  + Daily work documentation procedures
+
+
+```{r fig.cap="figure caption"}
+plot(1:12)
+```
+
+```{r tab.cap="table caption"}
+head(iris)
+```
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r fig.cap="figure caption", echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# References
