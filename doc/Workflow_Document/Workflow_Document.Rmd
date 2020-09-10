@@ -36,7 +36,7 @@ All this begets the question, why worry about reproducibility and optimizing wor
 
 The short anwser is, do it for your future self. The long anwser is, well, long and mostly outside of this articles scope. Many articles, books, and blogposts have outlined the importance of reproducibility in science (see: ). There arguments point towards reliable and reproducible results, extension of local results to general theories, avoiding biased inferences, repdoducibility in peer review. These reasons are laudable and important. However, for your own sanity, picking an easy to manage reproducible workflow will slow the growth rate of your bald spot. Analyses typically take months and sometimes years to complete. Personally, I can hardly remember what I had for lunch yesterday, so it is important to me that I can open a research project, after nearly any length of time, and continue working. The goal of this workflow is to demonstrate a workflow that is insensitive to exploding computers, lost hard drives, sloppy collaborators, and prolonged peer reviews.
 
-test
+
 
 # Link Rstudio and Github
 
